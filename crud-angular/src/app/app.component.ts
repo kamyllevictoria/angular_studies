@@ -1,13 +1,11 @@
 import { Component } from '@angular/core';
 
-
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
-  styleUrl: './app.component.css',
-
-}
-)
+  standalone: false,
+  styleUrl: './app.component.scss'
+})
 export class AppComponent {
-    tittle = "Ola, mundo!";
+  title = 'teste';
 }
