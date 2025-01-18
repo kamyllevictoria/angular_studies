@@ -6,7 +6,6 @@ import { provideAnimationsAsync } from '@angular/platform-browser/animations/asy
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 
-
 @NgModule({
   declarations: [
     AppComponent
